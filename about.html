@@ -2,19 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>About Farida Scandrett</title>
 </head>
 
 <body>
-    <main>
-        <h1>About me</h1>
-        <nav>
-            <a href="index.html">Back to homepage</a>
-        </nav>
-    </main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Farida Scandrett</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <header class="text-center mb-5">
+            <h1>About me</h1>
+            <h3 class="fw-light mt-3">
+                Front-end developer & Yoga aficionado from Sydney, Australia
+            </h3>
+        </header>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-10 text-center">
+                <p class="lead">
+                    Yoga offers a wide range of physical benefits that make it a popular practice across all age groups,
+                    but for developers, it serves as a vital <strong>system reboot</strong>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 section-card">
+            <div class="col-md-6 p-4">
+                <h4 class="feature-title">🧘 The Hardware: Yoga</h4>
+                <p>
+                    <strong>Flexibility & Posture:</strong> Hours spent hunched over a mechanical keyboard can lead to
+                    "Tech Neck." Regular yoga sessions improve flexibility and enhance posture, counteracting spine
+                    compression and opening up the chest.
+                </p>
+                <p>
+                    <strong>Mental Clarity:</strong> Just as clean code requires focus, yoga emphasizes breathwork that
+                    calms the nervous system and prevents <code>burnout.exe</code> from running in the background.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/yoga.png" class="img-fluid shadow rounded-3" alt="Yoga practice" />
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 section-card">
+            <div class="col-md-6 order-md-2 p-4">
+                <h4 class="feature-title">🥣 The Software: Yogurt</h4>
+                <p>
+                    <strong>Steady Fuel:</strong> Yogurt provides the sustained energy release needed for deep-work
+                    sessions, avoiding the "crash" associated with high-sugar snacks.
+                </p>
+                <p>
+                    <strong>Gut-Brain Logic:</strong> Probiotics support a healthy microbiome, directly influencing
+                    cognitive function and decision-making—essential for debugging complex logic.
+                </p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="images/yogurt.png" class="img-fluid shadow rounded-3" alt="Yogurt bowl" />
+            </div>
+        </div>
+
+        <div class="row g-4 mt-4">
+            <div class="col-sm-4">
+                <img src="images/yoga.png" class="img-fluid shadow-sm rounded border-light-subtle" alt="Yoga thumbnail" />
+            </div>
+            <div class="col-sm-4">
+                <img src="images/weather.png" class="img-fluid shadow-sm rounded border-light-subtle" alt="Weather app thumbnail" />
+            </div>
+            <div class="col-sm-4">
+                <img src="images/yogurt.png" class="img-fluid shadow-sm rounded border-light-subtle" alt="Yogurt thumbnail" />
+            </div>
+        </div>
+
+        <div id="contact" class="contact-box mt-5">
+            <h2>📮 Contact me</h2>
+            <a href="mailto:farida47@hotmail.com" class="email-link">farida47@hotmail.com</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

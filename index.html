@@ -2,20 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description"
-        content="Farida Scandrett: SheCodes Student Portfolio summarising skills of front-end development, including HTML, CSS and JavaScript.">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farida Scandrett | Front-end Developer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <main>
-        <h1>Welcome to my website - front-end and yoga afficianado</h1>
-        <nav>
-            <a href="about.html">Learn more about my services</a>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Farida Scandrett</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container text-center mt-5 py-5">
+        <h2 class="opacity-75">👋 Hi I am</h2>
+        <h1 class="display-3 fw-bold">Farida Scandrett</h1>
+        <h3 class="fw-light">🐨🌏 Front-end developer based in Sydney</h3>
+
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a href="about.html#contact" class="btn btn-outline-light px-4">Contact me</a>
+            <a href="about.html" class="btn btn-info px-4">About me</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row align-items-center mb-5 section-card p-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="images/yoga.png" alt="Yoga in nature" class="img-fluid rounded shadow" />
+            </div>
+            <div class="col-md-6 text-md-start text-center">
+                <h2 class="feature-title">Outdoor Yoga Classes</h2>
+                <p class="lead">Improve your flexibility and find your flow in the fresh air of Sydney.</p>
+                <div class="mt-4">
+                    <a href="about.html" class="btn btn-outline-info">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center mt-5 section-card p-4">
+            <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+                <img src="images/weather.png" alt="Weather app" class="img-fluid rounded shadow" />
+            </div>
+            <div class="col-md-6 order-md-1 text-md-start text-center">
+                <h2 class="feature-title">Weather App</h2>
+                <p class="lead">Don't get caught out! Plan your outdoor yoga lesson with our 7-day weather forecast app.
+                </p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-outline-info">Launch Weather App</a>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer class="text-center py-4 mt-5 border-top border-secondary">
+        <p class="small text-muted">© 2026 Farida Scandrett - Built with Yoga & Yogurt</p>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
