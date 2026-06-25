@@ -18,12 +18,19 @@ body {
 
 /* Typography */
 h1 {
-    font-size: clamp(1.6rem, 4vw, 3rem);
+    color: black;
+    font-family: "Playfair Display", serif;
     font-weight: bold;
 }
 
+
 h3 {
     color: #d1d1e9;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
 }
 
 /* Feature Specifics */
